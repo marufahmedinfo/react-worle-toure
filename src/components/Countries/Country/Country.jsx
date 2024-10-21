@@ -24,7 +24,7 @@ const Country = ({country, handleVisitedCountry, handleVisitedFlage}) => {
             <h4>Code : {cca3}</h4>
             <button className='btn2' onClick={()=>handleVisitedCountry(country)}>markVisited</button>
             <br />
-            <button onClick={()=>handleVisitedFlage(country.flags.png)}>Add Image</button>
+            <button className='btn3' onClick={()=>handleVisitedFlage(country.flags.png)}>Add Image</button>
             <br />
 
             <button className='btn1' onClick={handelVisited}>{visited ?'Visited':"Going"}</button>
